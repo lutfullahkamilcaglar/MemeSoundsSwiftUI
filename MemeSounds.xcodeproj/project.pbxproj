@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5061BE32B0A6638006E39F0 /* MemeSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BE22B0A6638006E39F0 /* MemeSound.swift */; };
+		F5061BE72B0A686B006E39F0 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BE62B0A686B006E39F0 /* Sounds.swift */; };
+		F5061BEA2B0A6B80006E39F0 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BE92B0A6B80006E39F0 /* SoundRow.swift */; };
+		F5061BF02B0A6D9D006E39F0 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BEF2B0A6D9D006E39F0 /* FavoritesView.swift */; };
+		F5061BF32B0A6DDC006E39F0 /* SoundListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BF22B0A6DDC006E39F0 /* SoundListViewModel.swift */; };
+		F5061BFA2B0A6E25006E39F0 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061BF92B0A6E25006E39F0 /* SoundService.swift */; };
+		F5061BFF2B0A7249006E39F0 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = F5061BFE2B0A7249006E39F0 /* SwiftySound */; };
+		F5061C122B0A79EB006E39F0 /* abi biz bittik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C022B0A79EB006E39F0 /* abi biz bittik.mp3 */; };
+		F5061C132B0A79EB006E39F0 /* Neha puan istemeye odama gelme emi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C032B0A79EB006E39F0 /* Neha puan istemeye odama gelme emi.mp3 */; };
+		F5061C142B0A79EB006E39F0 /* Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C042B0A79EB006E39F0 /* Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3 */; };
+		F5061C152B0A79EB006E39F0 /* Ananı avradını.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C052B0A79EB006E39F0 /* Ananı avradını.mp3 */; };
+		F5061C162B0A79EB006E39F0 /* abee biz bittik ya bu nee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C062B0A79EB006E39F0 /* abee biz bittik ya bu nee.mp3 */; };
+		F5061C172B0A79EB006E39F0 /* Vicdansız sürtük.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C072B0A79EB006E39F0 /* Vicdansız sürtük.mp3 */; };
+		F5061C182B0A79EB006E39F0 /* Sevgili yapmış.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C082B0A79EB006E39F0 /* Sevgili yapmış.mp3 */; };
+		F5061C192B0A79EB006E39F0 /* Hayır edioooon?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C092B0A79EB006E39F0 /* Hayır edioooon?.mp3 */; };
+		F5061C1A2B0A79EB006E39F0 /* Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0A2B0A79EB006E39F0 /* Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3 */; };
+		F5061C1B2B0A79EB006E39F0 /* Sen benle dalga mı geçiyosun lan şarj aleti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0B2B0A79EB006E39F0 /* Sen benle dalga mı geçiyosun lan şarj aleti.mp3 */; };
+		F5061C1C2B0A79EB006E39F0 /* damat takacam falcatayi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0C2B0A79EB006E39F0 /* damat takacam falcatayi.mp3 */; };
+		F5061C1D2B0A79EB006E39F0 /* Ahmet yok artık.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0D2B0A79EB006E39F0 /* Ahmet yok artık.mp3 */; };
+		F5061C1E2B0A79EB006E39F0 /* Salak herif saçmalama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0E2B0A79EB006E39F0 /* Salak herif saçmalama.mp3 */; };
+		F5061C1F2B0A79EB006E39F0 /* Ben bi saatir kime ne anlatıyom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C0F2B0A79EB006E39F0 /* Ben bi saatir kime ne anlatıyom.mp3 */; };
+		F5061C202B0A79EB006E39F0 /* Bana karıııı mı yok sen kimsin aq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C102B0A79EB006E39F0 /* Bana karıııı mı yok sen kimsin aq.mp3 */; };
+		F5061C212B0A79EB006E39F0 /* İstemeden karımı skcen delirme beni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C112B0A79EB006E39F0 /* İstemeden karımı skcen delirme beni.mp3 */; };
+		F5061C5A2B0ABF01006E39F0 /* Anasını siktiniz memleketin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C222B0ABEFF006E39F0 /* Anasını siktiniz memleketin.mp3 */; };
+		F5061C5B2B0ABF01006E39F0 /* Yes ay dozont.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C232B0ABEFF006E39F0 /* Yes ay dozont.mp3 */; };
+		F5061C5C2B0ABF01006E39F0 /* Sigara içersen kendine zarar verirsin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C242B0ABEFF006E39F0 /* Sigara içersen kendine zarar verirsin.mp3 */; };
+		F5061C5D2B0ABF01006E39F0 /* Tadımız da kaçtı.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C252B0ABF00006E39F0 /* Tadımız da kaçtı.mp3 */; };
+		F5061C5E2B0ABF01006E39F0 /* Bir liranız var mı.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C262B0ABF00006E39F0 /* Bir liranız var mı.mp3 */; };
+		F5061C5F2B0ABF01006E39F0 /* Ben alırım ya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C272B0ABF00006E39F0 /* Ben alırım ya.mp3 */; };
+		F5061C602B0ABF01006E39F0 /* Aşk ile davar HOH ne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C282B0ABF00006E39F0 /* Aşk ile davar HOH ne.mp3 */; };
+		F5061C612B0ABF01006E39F0 /* Mükemmel mükemmel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C292B0ABF00006E39F0 /* Mükemmel mükemmel.mp3 */; };
+		F5061C622B0ABF01006E39F0 /* Ebenin amı.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2A2B0ABF00006E39F0 /* Ebenin amı.mp3 */; };
+		F5061C632B0ABF01006E39F0 /* Kodumun kaşarı yetmedi demi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2B2B0ABF00006E39F0 /* Kodumun kaşarı yetmedi demi.mp3 */; };
+		F5061C642B0ABF01006E39F0 /* Ben bir davarım.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2C2B0ABF00006E39F0 /* Ben bir davarım.mp3 */; };
+		F5061C652B0ABF01006E39F0 /* Bana kraker soruyor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2D2B0ABF00006E39F0 /* Bana kraker soruyor.mp3 */; };
+		F5061C662B0ABF01006E39F0 /* Matematik hocanı sikiyim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2E2B0ABF00006E39F0 /* Matematik hocanı sikiyim.mp3 */; };
+		F5061C672B0ABF01006E39F0 /* Nereye gidiyon göt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C2F2B0ABF00006E39F0 /* Nereye gidiyon göt.mp3 */; };
+		F5061C682B0ABF01006E39F0 /* Patlıcan yaptım yecen mi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C302B0ABF00006E39F0 /* Patlıcan yaptım yecen mi.mp3 */; };
+		F5061C692B0ABF01006E39F0 /* Oğlum aptal aptal hareketler yapma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C312B0ABF00006E39F0 /* Oğlum aptal aptal hareketler yapma.mp3 */; };
+		F5061C6A2B0ABF01006E39F0 /* Düzgün konuş be.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C322B0ABF00006E39F0 /* Düzgün konuş be.mp3 */; };
+		F5061C6B2B0ABF01006E39F0 /* Bana para ver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C332B0ABF00006E39F0 /* Bana para ver.mp3 */; };
+		F5061C6C2B0ABF01006E39F0 /* Bu gece kalsın başka hiç kalmasın.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C342B0ABF00006E39F0 /* Bu gece kalsın başka hiç kalmasın.mp3 */; };
+		F5061C6D2B0ABF01006E39F0 /* Yav hep elinde telefon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C352B0ABF00006E39F0 /* Yav hep elinde telefon.mp3 */; };
+		F5061C6E2B0ABF01006E39F0 /* Beni bir iki cümleyle anlatır mısın.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C362B0ABF00006E39F0 /* Beni bir iki cümleyle anlatır mısın.mp3 */; };
+		F5061C6F2B0ABF01006E39F0 /* Sana çıkmıyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C372B0ABF00006E39F0 /* Sana çıkmıyo.mp3 */; };
+		F5061C702B0ABF01006E39F0 /* Atma artık.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C382B0ABF00006E39F0 /* Atma artık.mp3 */; };
+		F5061C712B0ABF01006E39F0 /* Götünün düğümlenmesini istiyolar muhtmelen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C392B0ABF00006E39F0 /* Götünün düğümlenmesini istiyolar muhtmelen.mp3 */; };
+		F5061C722B0ABF01006E39F0 /* Senden benden zengin bunlar he.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3A2B0ABF00006E39F0 /* Senden benden zengin bunlar he.mp3 */; };
+		F5061C732B0ABF01006E39F0 /* Oğlum pisuvara kim sıçtı.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3B2B0ABF00006E39F0 /* Oğlum pisuvara kim sıçtı.mp3 */; };
+		F5061C742B0ABF01006E39F0 /* Bizimkiler izin vermez ki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3C2B0ABF00006E39F0 /* Bizimkiler izin vermez ki.mp3 */; };
+		F5061C752B0ABF01006E39F0 /* Hadi siktirin gidin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3D2B0ABF00006E39F0 /* Hadi siktirin gidin.mp3 */; };
+		F5061C762B0ABF01006E39F0 /* Sen öyle san baba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3E2B0ABF00006E39F0 /* Sen öyle san baba.mp3 */; };
+		F5061C772B0ABF01006E39F0 /* Hocam aykut uç yiyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C3F2B0ABF00006E39F0 /* Hocam aykut uç yiyo.mp3 */; };
+		F5061C782B0ABF01006E39F0 /* Kalk kalk kalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C402B0ABF00006E39F0 /* Kalk kalk kalk.mp3 */; };
+		F5061C792B0ABF01006E39F0 /* Amanın.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C412B0ABF00006E39F0 /* Amanın.mp3 */; };
+		F5061C7A2B0ABF01006E39F0 /* Nasipde varsa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C422B0ABF01006E39F0 /* Nasipde varsa.mp3 */; };
+		F5061C7B2B0ABF01006E39F0 /* Ben mi sıçtım.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C432B0ABF01006E39F0 /* Ben mi sıçtım.mp3 */; };
+		F5061C7C2B0ABF01006E39F0 /* Ne neden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C442B0ABF01006E39F0 /* Ne neden.mp3 */; };
+		F5061C7D2B0ABF01006E39F0 /* Yavaş la kaç tane alıyon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C452B0ABF01006E39F0 /* Yavaş la kaç tane alıyon.mp3 */; };
+		F5061C7E2B0ABF01006E39F0 /* Yok bakmayalım.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C462B0ABF01006E39F0 /* Yok bakmayalım.mp3 */; };
+		F5061C7F2B0ABF01006E39F0 /* Mehmedi şişlemişler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C472B0ABF01006E39F0 /* Mehmedi şişlemişler.mp3 */; };
+		F5061C802B0ABF01006E39F0 /* Sigara mı içiyon lan sen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C482B0ABF01006E39F0 /* Sigara mı içiyon lan sen.mp3 */; };
+		F5061C812B0ABF01006E39F0 /* Bakiyim ne çıkmış.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C492B0ABF01006E39F0 /* Bakiyim ne çıkmış.mp3 */; };
+		F5061C822B0ABF01006E39F0 /* Besmele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4A2B0ABF01006E39F0 /* Besmele.mp3 */; };
+		F5061C832B0ABF01006E39F0 /* Ebesinin amı.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4B2B0ABF01006E39F0 /* Ebesinin amı.mp3 */; };
+		F5061C842B0ABF01006E39F0 /* Ne demek kızın yaşı anneden büyük olamaz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4C2B0ABF01006E39F0 /* Ne demek kızın yaşı anneden büyük olamaz.mp3 */; };
+		F5061C852B0ABF01006E39F0 /* Olmaz böyle şey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4D2B0ABF01006E39F0 /* Olmaz böyle şey.mp3 */; };
+		F5061C862B0ABF01006E39F0 /* Bizde kalsana oğlum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4E2B0ABF01006E39F0 /* Bizde kalsana oğlum.mp3 */; };
+		F5061C872B0ABF01006E39F0 /* Bu araba kime çıkıyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C4F2B0ABF01006E39F0 /* Bu araba kime çıkıyo.mp3 */; };
+		F5061C882B0ABF01006E39F0 /* Ne bok anladım ben bu işten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C502B0ABF01006E39F0 /* Ne bok anladım ben bu işten.mp3 */; };
+		F5061C892B0ABF01006E39F0 /* I have got a one pencil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C512B0ABF01006E39F0 /* I have got a one pencil.mp3 */; };
+		F5061C8A2B0ABF01006E39F0 /* Uğur ıslak kek yicen mi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C522B0ABF01006E39F0 /* Uğur ıslak kek yicen mi.mp3 */; };
+		F5061C8B2B0ABF01006E39F0 /* Bir insalarla konuş.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C532B0ABF01006E39F0 /* Bir insalarla konuş.mp3 */; };
+		F5061C8C2B0ABF01006E39F0 /* Sohbetleri kaçırmada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C542B0ABF01006E39F0 /* Sohbetleri kaçırmada.mp3 */; };
+		F5061C8D2B0ABF01006E39F0 /* Amk yavaş lan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C552B0ABF01006E39F0 /* Amk yavaş lan.mp3 */; };
+		F5061C8E2B0ABF01006E39F0 /* Adam meal diyor meal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C562B0ABF01006E39F0 /* Adam meal diyor meal.mp3 */; };
+		F5061C8F2B0ABF01006E39F0 /* Götüne sok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C572B0ABF01006E39F0 /* Götüne sok.mp3 */; };
+		F5061C902B0ABF01006E39F0 /* Piç.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C582B0ABF01006E39F0 /* Piç.mp3 */; };
+		F5061C912B0ABF01006E39F0 /* Salak salak konuşma be.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C592B0ABF01006E39F0 /* Salak salak konuşma be.mp3 */; };
+		F5061C932B0AC77E006E39F0 /* Allah'da binbir belanızı versin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C922B0AC77E006E39F0 /* Allah'da binbir belanızı versin.mp3 */; };
+		F5061C952B0AC799006E39F0 /* Bana göre değil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C942B0AC799006E39F0 /* Bana göre değil.mp3 */; };
+		F5061C972B0ACE16006E39F0 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061C962B0ACE16006E39F0 /* SoundView.swift */; };
+		F5061C992B0ACF02006E39F0 /* Bak nasıl kıvırıyor yandaş mısın aq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5061C982B0ACF02006E39F0 /* Bak nasıl kıvırıyor yandaş mısın aq.mp3 */; };
+		F5061C9C2B0ACFF9006E39F0 /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061C9B2B0ACFF9006E39F0 /* StopButton.swift */; };
+		F5061C9E2B0ADC92006E39F0 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061C9D2B0ADC92006E39F0 /* ShareButton.swift */; };
+		F56291E52ACB6C6600818959 /* MemeSoundsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56291E42ACB6C6600818959 /* MemeSoundsApp.swift */; };
+		F56291E72ACB6C6600818959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56291E62ACB6C6600818959 /* ContentView.swift */; };
+		F56291E92ACB6C6800818959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56291E82ACB6C6800818959 /* Assets.xcassets */; };
+		F56291EC2ACB6C6800818959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56291EB2ACB6C6800818959 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5061BE22B0A6638006E39F0 /* MemeSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSound.swift; sourceTree = "<group>"; };
+		F5061BE62B0A686B006E39F0 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		F5061BE92B0A6B80006E39F0 /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
+		F5061BEF2B0A6D9D006E39F0 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F5061BF22B0A6DDC006E39F0 /* SoundListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewModel.swift; sourceTree = "<group>"; };
+		F5061BF92B0A6E25006E39F0 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		F5061C022B0A79EB006E39F0 /* abi biz bittik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "abi biz bittik.mp3"; sourceTree = "<group>"; };
+		F5061C032B0A79EB006E39F0 /* Neha puan istemeye odama gelme emi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Neha puan istemeye odama gelme emi.mp3"; sourceTree = "<group>"; };
+		F5061C042B0A79EB006E39F0 /* Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3"; sourceTree = "<group>"; };
+		F5061C052B0A79EB006E39F0 /* Ananı avradını.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ananı avradını.mp3"; sourceTree = "<group>"; };
+		F5061C062B0A79EB006E39F0 /* abee biz bittik ya bu nee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "abee biz bittik ya bu nee.mp3"; sourceTree = "<group>"; };
+		F5061C072B0A79EB006E39F0 /* Vicdansız sürtük.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vicdansız sürtük.mp3"; sourceTree = "<group>"; };
+		F5061C082B0A79EB006E39F0 /* Sevgili yapmış.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sevgili yapmış.mp3"; sourceTree = "<group>"; };
+		F5061C092B0A79EB006E39F0 /* Hayır edioooon?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hayır edioooon?.mp3"; sourceTree = "<group>"; };
+		F5061C0A2B0A79EB006E39F0 /* Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3"; sourceTree = "<group>"; };
+		F5061C0B2B0A79EB006E39F0 /* Sen benle dalga mı geçiyosun lan şarj aleti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sen benle dalga mı geçiyosun lan şarj aleti.mp3"; sourceTree = "<group>"; };
+		F5061C0C2B0A79EB006E39F0 /* damat takacam falcatayi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "damat takacam falcatayi.mp3"; sourceTree = "<group>"; };
+		F5061C0D2B0A79EB006E39F0 /* Ahmet yok artık.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ahmet yok artık.mp3"; sourceTree = "<group>"; };
+		F5061C0E2B0A79EB006E39F0 /* Salak herif saçmalama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Salak herif saçmalama.mp3"; sourceTree = "<group>"; };
+		F5061C0F2B0A79EB006E39F0 /* Ben bi saatir kime ne anlatıyom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ben bi saatir kime ne anlatıyom.mp3"; sourceTree = "<group>"; };
+		F5061C102B0A79EB006E39F0 /* Bana karıııı mı yok sen kimsin aq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bana karıııı mı yok sen kimsin aq.mp3"; sourceTree = "<group>"; };
+		F5061C112B0A79EB006E39F0 /* İstemeden karımı skcen delirme beni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "İstemeden karımı skcen delirme beni.mp3"; sourceTree = "<group>"; };
+		F5061C222B0ABEFF006E39F0 /* Anasını siktiniz memleketin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Anasını siktiniz memleketin.mp3"; sourceTree = "<group>"; };
+		F5061C232B0ABEFF006E39F0 /* Yes ay dozont.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yes ay dozont.mp3"; sourceTree = "<group>"; };
+		F5061C242B0ABEFF006E39F0 /* Sigara içersen kendine zarar verirsin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sigara içersen kendine zarar verirsin.mp3"; sourceTree = "<group>"; };
+		F5061C252B0ABF00006E39F0 /* Tadımız da kaçtı.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tadımız da kaçtı.mp3"; sourceTree = "<group>"; };
+		F5061C262B0ABF00006E39F0 /* Bir liranız var mı.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bir liranız var mı.mp3"; sourceTree = "<group>"; };
+		F5061C272B0ABF00006E39F0 /* Ben alırım ya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ben alırım ya.mp3"; sourceTree = "<group>"; };
+		F5061C282B0ABF00006E39F0 /* Aşk ile davar HOH ne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aşk ile davar HOH ne.mp3"; sourceTree = "<group>"; };
+		F5061C292B0ABF00006E39F0 /* Mükemmel mükemmel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mükemmel mükemmel.mp3"; sourceTree = "<group>"; };
+		F5061C2A2B0ABF00006E39F0 /* Ebenin amı.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ebenin amı.mp3"; sourceTree = "<group>"; };
+		F5061C2B2B0ABF00006E39F0 /* Kodumun kaşarı yetmedi demi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kodumun kaşarı yetmedi demi.mp3"; sourceTree = "<group>"; };
+		F5061C2C2B0ABF00006E39F0 /* Ben bir davarım.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ben bir davarım.mp3"; sourceTree = "<group>"; };
+		F5061C2D2B0ABF00006E39F0 /* Bana kraker soruyor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bana kraker soruyor.mp3"; sourceTree = "<group>"; };
+		F5061C2E2B0ABF00006E39F0 /* Matematik hocanı sikiyim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Matematik hocanı sikiyim.mp3"; sourceTree = "<group>"; };
+		F5061C2F2B0ABF00006E39F0 /* Nereye gidiyon göt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nereye gidiyon göt.mp3"; sourceTree = "<group>"; };
+		F5061C302B0ABF00006E39F0 /* Patlıcan yaptım yecen mi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Patlıcan yaptım yecen mi.mp3"; sourceTree = "<group>"; };
+		F5061C312B0ABF00006E39F0 /* Oğlum aptal aptal hareketler yapma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oğlum aptal aptal hareketler yapma.mp3"; sourceTree = "<group>"; };
+		F5061C322B0ABF00006E39F0 /* Düzgün konuş be.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Düzgün konuş be.mp3"; sourceTree = "<group>"; };
+		F5061C332B0ABF00006E39F0 /* Bana para ver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bana para ver.mp3"; sourceTree = "<group>"; };
+		F5061C342B0ABF00006E39F0 /* Bu gece kalsın başka hiç kalmasın.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bu gece kalsın başka hiç kalmasın.mp3"; sourceTree = "<group>"; };
+		F5061C352B0ABF00006E39F0 /* Yav hep elinde telefon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yav hep elinde telefon.mp3"; sourceTree = "<group>"; };
+		F5061C362B0ABF00006E39F0 /* Beni bir iki cümleyle anlatır mısın.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beni bir iki cümleyle anlatır mısın.mp3"; sourceTree = "<group>"; };
+		F5061C372B0ABF00006E39F0 /* Sana çıkmıyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sana çıkmıyo.mp3"; sourceTree = "<group>"; };
+		F5061C382B0ABF00006E39F0 /* Atma artık.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Atma artık.mp3"; sourceTree = "<group>"; };
+		F5061C392B0ABF00006E39F0 /* Götünün düğümlenmesini istiyolar muhtmelen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Götünün düğümlenmesini istiyolar muhtmelen.mp3"; sourceTree = "<group>"; };
+		F5061C3A2B0ABF00006E39F0 /* Senden benden zengin bunlar he.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Senden benden zengin bunlar he.mp3"; sourceTree = "<group>"; };
+		F5061C3B2B0ABF00006E39F0 /* Oğlum pisuvara kim sıçtı.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oğlum pisuvara kim sıçtı.mp3"; sourceTree = "<group>"; };
+		F5061C3C2B0ABF00006E39F0 /* Bizimkiler izin vermez ki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bizimkiler izin vermez ki.mp3"; sourceTree = "<group>"; };
+		F5061C3D2B0ABF00006E39F0 /* Hadi siktirin gidin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hadi siktirin gidin.mp3"; sourceTree = "<group>"; };
+		F5061C3E2B0ABF00006E39F0 /* Sen öyle san baba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sen öyle san baba.mp3"; sourceTree = "<group>"; };
+		F5061C3F2B0ABF00006E39F0 /* Hocam aykut uç yiyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hocam aykut uç yiyo.mp3"; sourceTree = "<group>"; };
+		F5061C402B0ABF00006E39F0 /* Kalk kalk kalk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kalk kalk kalk.mp3"; sourceTree = "<group>"; };
+		F5061C412B0ABF00006E39F0 /* Amanın.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amanın.mp3"; sourceTree = "<group>"; };
+		F5061C422B0ABF01006E39F0 /* Nasipde varsa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nasipde varsa.mp3"; sourceTree = "<group>"; };
+		F5061C432B0ABF01006E39F0 /* Ben mi sıçtım.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ben mi sıçtım.mp3"; sourceTree = "<group>"; };
+		F5061C442B0ABF01006E39F0 /* Ne neden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ne neden.mp3"; sourceTree = "<group>"; };
+		F5061C452B0ABF01006E39F0 /* Yavaş la kaç tane alıyon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yavaş la kaç tane alıyon.mp3"; sourceTree = "<group>"; };
+		F5061C462B0ABF01006E39F0 /* Yok bakmayalım.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yok bakmayalım.mp3"; sourceTree = "<group>"; };
+		F5061C472B0ABF01006E39F0 /* Mehmedi şişlemişler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mehmedi şişlemişler.mp3"; sourceTree = "<group>"; };
+		F5061C482B0ABF01006E39F0 /* Sigara mı içiyon lan sen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sigara mı içiyon lan sen.mp3"; sourceTree = "<group>"; };
+		F5061C492B0ABF01006E39F0 /* Bakiyim ne çıkmış.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bakiyim ne çıkmış.mp3"; sourceTree = "<group>"; };
+		F5061C4A2B0ABF01006E39F0 /* Besmele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Besmele.mp3; sourceTree = "<group>"; };
+		F5061C4B2B0ABF01006E39F0 /* Ebesinin amı.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ebesinin amı.mp3"; sourceTree = "<group>"; };
+		F5061C4C2B0ABF01006E39F0 /* Ne demek kızın yaşı anneden büyük olamaz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ne demek kızın yaşı anneden büyük olamaz.mp3"; sourceTree = "<group>"; };
+		F5061C4D2B0ABF01006E39F0 /* Olmaz böyle şey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Olmaz böyle şey.mp3"; sourceTree = "<group>"; };
+		F5061C4E2B0ABF01006E39F0 /* Bizde kalsana oğlum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bizde kalsana oğlum.mp3"; sourceTree = "<group>"; };
+		F5061C4F2B0ABF01006E39F0 /* Bu araba kime çıkıyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bu araba kime çıkıyo.mp3"; sourceTree = "<group>"; };
+		F5061C502B0ABF01006E39F0 /* Ne bok anladım ben bu işten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ne bok anladım ben bu işten.mp3"; sourceTree = "<group>"; };
+		F5061C512B0ABF01006E39F0 /* I have got a one pencil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I have got a one pencil.mp3"; sourceTree = "<group>"; };
+		F5061C522B0ABF01006E39F0 /* Uğur ıslak kek yicen mi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Uğur ıslak kek yicen mi.mp3"; sourceTree = "<group>"; };
+		F5061C532B0ABF01006E39F0 /* Bir insalarla konuş.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bir insalarla konuş.mp3"; sourceTree = "<group>"; };
+		F5061C542B0ABF01006E39F0 /* Sohbetleri kaçırmada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sohbetleri kaçırmada.mp3"; sourceTree = "<group>"; };
+		F5061C552B0ABF01006E39F0 /* Amk yavaş lan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amk yavaş lan.mp3"; sourceTree = "<group>"; };
+		F5061C562B0ABF01006E39F0 /* Adam meal diyor meal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adam meal diyor meal.mp3"; sourceTree = "<group>"; };
+		F5061C572B0ABF01006E39F0 /* Götüne sok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Götüne sok.mp3"; sourceTree = "<group>"; };
+		F5061C582B0ABF01006E39F0 /* Piç.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Piç.mp3"; sourceTree = "<group>"; };
+		F5061C592B0ABF01006E39F0 /* Salak salak konuşma be.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Salak salak konuşma be.mp3"; sourceTree = "<group>"; };
+		F5061C922B0AC77E006E39F0 /* Allah'da binbir belanızı versin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Allah'da binbir belanızı versin.mp3"; sourceTree = "<group>"; };
+		F5061C942B0AC799006E39F0 /* Bana göre değil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bana göre değil.mp3"; sourceTree = "<group>"; };
+		F5061C962B0ACE16006E39F0 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		F5061C982B0ACF02006E39F0 /* Bak nasıl kıvırıyor yandaş mısın aq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bak nasıl kıvırıyor yandaş mısın aq.mp3"; sourceTree = "<group>"; };
+		F5061C9B2B0ACFF9006E39F0 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
+		F5061C9D2B0ADC92006E39F0 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		F56291E12ACB6C6600818959 /* MemeSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56291E42ACB6C6600818959 /* MemeSoundsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSoundsApp.swift; sourceTree = "<group>"; };
+		F56291E62ACB6C6600818959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F56291E82ACB6C6800818959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56291EB2ACB6C6800818959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56291DE2ACB6C6600818959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5061BFF2B0A7249006E39F0 /* SwiftySound in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5061BE12B0A661C006E39F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BE22B0A6638006E39F0 /* MemeSound.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5061BE42B0A684A006E39F0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BE52B0A685B006E39F0 /* MemeSounds */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F5061BE52B0A685B006E39F0 /* MemeSounds */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BE62B0A686B006E39F0 /* Sounds.swift */,
+			);
+			path = MemeSounds;
+			sourceTree = "<group>";
+		};
+		F5061BE82B0A6B69006E39F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5061C9A2B0ACFE9006E39F0 /* Buttons */,
+				F5061BE92B0A6B80006E39F0 /* SoundRow.swift */,
+				F5061BEF2B0A6D9D006E39F0 /* FavoritesView.swift */,
+				F5061C962B0ACE16006E39F0 /* SoundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5061BF12B0A6DC7006E39F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BF22B0A6DDC006E39F0 /* SoundListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F5061BF82B0A6E10006E39F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BF92B0A6E25006E39F0 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F5061C012B0A7967006E39F0 /* MemeSoundAsset */ = {
+			isa = PBXGroup;
+			children = (
+				F5061C982B0ACF02006E39F0 /* Bak nasıl kıvırıyor yandaş mısın aq.mp3 */,
+				F5061C942B0AC799006E39F0 /* Bana göre değil.mp3 */,
+				F5061C922B0AC77E006E39F0 /* Allah'da binbir belanızı versin.mp3 */,
+				F5061C562B0ABF01006E39F0 /* Adam meal diyor meal.mp3 */,
+				F5061C412B0ABF00006E39F0 /* Amanın.mp3 */,
+				F5061C552B0ABF01006E39F0 /* Amk yavaş lan.mp3 */,
+				F5061C222B0ABEFF006E39F0 /* Anasını siktiniz memleketin.mp3 */,
+				F5061C282B0ABF00006E39F0 /* Aşk ile davar HOH ne.mp3 */,
+				F5061C382B0ABF00006E39F0 /* Atma artık.mp3 */,
+				F5061C492B0ABF01006E39F0 /* Bakiyim ne çıkmış.mp3 */,
+				F5061C2D2B0ABF00006E39F0 /* Bana kraker soruyor.mp3 */,
+				F5061C332B0ABF00006E39F0 /* Bana para ver.mp3 */,
+				F5061C272B0ABF00006E39F0 /* Ben alırım ya.mp3 */,
+				F5061C2C2B0ABF00006E39F0 /* Ben bir davarım.mp3 */,
+				F5061C432B0ABF01006E39F0 /* Ben mi sıçtım.mp3 */,
+				F5061C362B0ABF00006E39F0 /* Beni bir iki cümleyle anlatır mısın.mp3 */,
+				F5061C4A2B0ABF01006E39F0 /* Besmele.mp3 */,
+				F5061C532B0ABF01006E39F0 /* Bir insalarla konuş.mp3 */,
+				F5061C262B0ABF00006E39F0 /* Bir liranız var mı.mp3 */,
+				F5061C4E2B0ABF01006E39F0 /* Bizde kalsana oğlum.mp3 */,
+				F5061C3C2B0ABF00006E39F0 /* Bizimkiler izin vermez ki.mp3 */,
+				F5061C4F2B0ABF01006E39F0 /* Bu araba kime çıkıyo.mp3 */,
+				F5061C342B0ABF00006E39F0 /* Bu gece kalsın başka hiç kalmasın.mp3 */,
+				F5061C322B0ABF00006E39F0 /* Düzgün konuş be.mp3 */,
+				F5061C2A2B0ABF00006E39F0 /* Ebenin amı.mp3 */,
+				F5061C4B2B0ABF01006E39F0 /* Ebesinin amı.mp3 */,
+				F5061C572B0ABF01006E39F0 /* Götüne sok.mp3 */,
+				F5061C392B0ABF00006E39F0 /* Götünün düğümlenmesini istiyolar muhtmelen.mp3 */,
+				F5061C3D2B0ABF00006E39F0 /* Hadi siktirin gidin.mp3 */,
+				F5061C3F2B0ABF00006E39F0 /* Hocam aykut uç yiyo.mp3 */,
+				F5061C512B0ABF01006E39F0 /* I have got a one pencil.mp3 */,
+				F5061C402B0ABF00006E39F0 /* Kalk kalk kalk.mp3 */,
+				F5061C2B2B0ABF00006E39F0 /* Kodumun kaşarı yetmedi demi.mp3 */,
+				F5061C2E2B0ABF00006E39F0 /* Matematik hocanı sikiyim.mp3 */,
+				F5061C472B0ABF01006E39F0 /* Mehmedi şişlemişler.mp3 */,
+				F5061C292B0ABF00006E39F0 /* Mükemmel mükemmel.mp3 */,
+				F5061C422B0ABF01006E39F0 /* Nasipde varsa.mp3 */,
+				F5061C502B0ABF01006E39F0 /* Ne bok anladım ben bu işten.mp3 */,
+				F5061C4C2B0ABF01006E39F0 /* Ne demek kızın yaşı anneden büyük olamaz.mp3 */,
+				F5061C442B0ABF01006E39F0 /* Ne neden.mp3 */,
+				F5061C2F2B0ABF00006E39F0 /* Nereye gidiyon göt.mp3 */,
+				F5061C312B0ABF00006E39F0 /* Oğlum aptal aptal hareketler yapma.mp3 */,
+				F5061C3B2B0ABF00006E39F0 /* Oğlum pisuvara kim sıçtı.mp3 */,
+				F5061C4D2B0ABF01006E39F0 /* Olmaz böyle şey.mp3 */,
+				F5061C302B0ABF00006E39F0 /* Patlıcan yaptım yecen mi.mp3 */,
+				F5061C582B0ABF01006E39F0 /* Piç.mp3 */,
+				F5061C592B0ABF01006E39F0 /* Salak salak konuşma be.mp3 */,
+				F5061C372B0ABF00006E39F0 /* Sana çıkmıyo.mp3 */,
+				F5061C3E2B0ABF00006E39F0 /* Sen öyle san baba.mp3 */,
+				F5061C3A2B0ABF00006E39F0 /* Senden benden zengin bunlar he.mp3 */,
+				F5061C242B0ABEFF006E39F0 /* Sigara içersen kendine zarar verirsin.mp3 */,
+				F5061C482B0ABF01006E39F0 /* Sigara mı içiyon lan sen.mp3 */,
+				F5061C542B0ABF01006E39F0 /* Sohbetleri kaçırmada.mp3 */,
+				F5061C252B0ABF00006E39F0 /* Tadımız da kaçtı.mp3 */,
+				F5061C522B0ABF01006E39F0 /* Uğur ıslak kek yicen mi.mp3 */,
+				F5061C352B0ABF00006E39F0 /* Yav hep elinde telefon.mp3 */,
+				F5061C452B0ABF01006E39F0 /* Yavaş la kaç tane alıyon.mp3 */,
+				F5061C232B0ABEFF006E39F0 /* Yes ay dozont.mp3 */,
+				F5061C462B0ABF01006E39F0 /* Yok bakmayalım.mp3 */,
+				F5061C062B0A79EB006E39F0 /* abee biz bittik ya bu nee.mp3 */,
+				F5061C022B0A79EB006E39F0 /* abi biz bittik.mp3 */,
+				F5061C0D2B0A79EB006E39F0 /* Ahmet yok artık.mp3 */,
+				F5061C052B0A79EB006E39F0 /* Ananı avradını.mp3 */,
+				F5061C102B0A79EB006E39F0 /* Bana karıııı mı yok sen kimsin aq.mp3 */,
+				F5061C0F2B0A79EB006E39F0 /* Ben bi saatir kime ne anlatıyom.mp3 */,
+				F5061C042B0A79EB006E39F0 /* Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3 */,
+				F5061C0C2B0A79EB006E39F0 /* damat takacam falcatayi.mp3 */,
+				F5061C092B0A79EB006E39F0 /* Hayır edioooon?.mp3 */,
+				F5061C112B0A79EB006E39F0 /* İstemeden karımı skcen delirme beni.mp3 */,
+				F5061C032B0A79EB006E39F0 /* Neha puan istemeye odama gelme emi.mp3 */,
+				F5061C0E2B0A79EB006E39F0 /* Salak herif saçmalama.mp3 */,
+				F5061C0B2B0A79EB006E39F0 /* Sen benle dalga mı geçiyosun lan şarj aleti.mp3 */,
+				F5061C082B0A79EB006E39F0 /* Sevgili yapmış.mp3 */,
+				F5061C0A2B0A79EB006E39F0 /* Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3 */,
+				F5061C072B0A79EB006E39F0 /* Vicdansız sürtük.mp3 */,
+			);
+			path = MemeSoundAsset;
+			sourceTree = "<group>";
+		};
+		F5061C9A2B0ACFE9006E39F0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F5061C9B2B0ACFF9006E39F0 /* StopButton.swift */,
+				F5061C9D2B0ADC92006E39F0 /* ShareButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F56291D82ACB6C6600818959 = {
+			isa = PBXGroup;
+			children = (
+				F56291E32ACB6C6600818959 /* MemeSounds */,
+				F56291E22ACB6C6600818959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56291E22ACB6C6600818959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56291E12ACB6C6600818959 /* MemeSounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56291E32ACB6C6600818959 /* MemeSounds */ = {
+			isa = PBXGroup;
+			children = (
+				F5061BF82B0A6E10006E39F0 /* Services */,
+				F5061BF12B0A6DC7006E39F0 /* ViewModels */,
+				F5061BE82B0A6B69006E39F0 /* Views */,
+				F5061BE42B0A684A006E39F0 /* Data */,
+				F5061BE12B0A661C006E39F0 /* Models */,
+				F56291E42ACB6C6600818959 /* MemeSoundsApp.swift */,
+				F56291E62ACB6C6600818959 /* ContentView.swift */,
+				F56291E82ACB6C6800818959 /* Assets.xcassets */,
+				F5061C012B0A7967006E39F0 /* MemeSoundAsset */,
+				F56291EA2ACB6C6800818959 /* Preview Content */,
+			);
+			path = MemeSounds;
+			sourceTree = "<group>";
+		};
+		F56291EA2ACB6C6800818959 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F56291EB2ACB6C6800818959 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56291E02ACB6C6600818959 /* MemeSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56291EF2ACB6C6800818959 /* Build configuration list for PBXNativeTarget "MemeSounds" */;
+			buildPhases = (
+				F56291DD2ACB6C6600818959 /* Sources */,
+				F56291DE2ACB6C6600818959 /* Frameworks */,
+				F56291DF2ACB6C6600818959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeSounds;
+			packageProductDependencies = (
+				F5061BFE2B0A7249006E39F0 /* SwiftySound */,
+			);
+			productName = MemeSounds;
+			productReference = F56291E12ACB6C6600818959 /* MemeSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56291D92ACB6C6600818959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F56291E02ACB6C6600818959 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F56291DC2ACB6C6600818959 /* Build configuration list for PBXProject "MemeSounds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56291D82ACB6C6600818959;
+			packageReferences = (
+				F5061BFD2B0A7249006E39F0 /* XCRemoteSwiftPackageReference "SwiftySound" */,
+			);
+			productRefGroup = F56291E22ACB6C6600818959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56291E02ACB6C6600818959 /* MemeSounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56291DF2ACB6C6600818959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5061C5E2B0ABF01006E39F0 /* Bir liranız var mı.mp3 in Resources */,
+				F5061C752B0ABF01006E39F0 /* Hadi siktirin gidin.mp3 in Resources */,
+				F5061C8E2B0ABF01006E39F0 /* Adam meal diyor meal.mp3 in Resources */,
+				F5061C622B0ABF01006E39F0 /* Ebenin amı.mp3 in Resources */,
+				F5061C6A2B0ABF01006E39F0 /* Düzgün konuş be.mp3 in Resources */,
+				F5061C952B0AC799006E39F0 /* Bana göre değil.mp3 in Resources */,
+				F5061C692B0ABF01006E39F0 /* Oğlum aptal aptal hareketler yapma.mp3 in Resources */,
+				F5061C822B0ABF01006E39F0 /* Besmele.mp3 in Resources */,
+				F5061C772B0ABF01006E39F0 /* Hocam aykut uç yiyo.mp3 in Resources */,
+				F5061C852B0ABF01006E39F0 /* Olmaz böyle şey.mp3 in Resources */,
+				F5061C672B0ABF01006E39F0 /* Nereye gidiyon göt.mp3 in Resources */,
+				F5061C8B2B0ABF01006E39F0 /* Bir insalarla konuş.mp3 in Resources */,
+				F5061C702B0ABF01006E39F0 /* Atma artık.mp3 in Resources */,
+				F5061C872B0ABF01006E39F0 /* Bu araba kime çıkıyo.mp3 in Resources */,
+				F5061C5C2B0ABF01006E39F0 /* Sigara içersen kendine zarar verirsin.mp3 in Resources */,
+				F5061C832B0ABF01006E39F0 /* Ebesinin amı.mp3 in Resources */,
+				F5061C6B2B0ABF01006E39F0 /* Bana para ver.mp3 in Resources */,
+				F5061C6E2B0ABF01006E39F0 /* Beni bir iki cümleyle anlatır mısın.mp3 in Resources */,
+				F5061C742B0ABF01006E39F0 /* Bizimkiler izin vermez ki.mp3 in Resources */,
+				F5061C5B2B0ABF01006E39F0 /* Yes ay dozont.mp3 in Resources */,
+				F5061C862B0ABF01006E39F0 /* Bizde kalsana oğlum.mp3 in Resources */,
+				F5061C132B0A79EB006E39F0 /* Neha puan istemeye odama gelme emi.mp3 in Resources */,
+				F5061C8F2B0ABF01006E39F0 /* Götüne sok.mp3 in Resources */,
+				F5061C192B0A79EB006E39F0 /* Hayır edioooon?.mp3 in Resources */,
+				F5061C912B0ABF01006E39F0 /* Salak salak konuşma be.mp3 in Resources */,
+				F5061C212B0A79EB006E39F0 /* İstemeden karımı skcen delirme beni.mp3 in Resources */,
+				F5061C712B0ABF01006E39F0 /* Götünün düğümlenmesini istiyolar muhtmelen.mp3 in Resources */,
+				F5061C662B0ABF01006E39F0 /* Matematik hocanı sikiyim.mp3 in Resources */,
+				F5061C7F2B0ABF01006E39F0 /* Mehmedi şişlemişler.mp3 in Resources */,
+				F5061C7D2B0ABF01006E39F0 /* Yavaş la kaç tane alıyon.mp3 in Resources */,
+				F5061C7C2B0ABF01006E39F0 /* Ne neden.mp3 in Resources */,
+				F5061C1D2B0A79EB006E39F0 /* Ahmet yok artık.mp3 in Resources */,
+				F5061C812B0ABF01006E39F0 /* Bakiyim ne çıkmış.mp3 in Resources */,
+				F5061C7E2B0ABF01006E39F0 /* Yok bakmayalım.mp3 in Resources */,
+				F5061C7B2B0ABF01006E39F0 /* Ben mi sıçtım.mp3 in Resources */,
+				F5061C182B0A79EB006E39F0 /* Sevgili yapmış.mp3 in Resources */,
+				F5061C1F2B0A79EB006E39F0 /* Ben bi saatir kime ne anlatıyom.mp3 in Resources */,
+				F5061C642B0ABF01006E39F0 /* Ben bir davarım.mp3 in Resources */,
+				F5061C152B0A79EB006E39F0 /* Ananı avradını.mp3 in Resources */,
+				F5061C6D2B0ABF01006E39F0 /* Yav hep elinde telefon.mp3 in Resources */,
+				F5061C732B0ABF01006E39F0 /* Oğlum pisuvara kim sıçtı.mp3 in Resources */,
+				F56291EC2ACB6C6800818959 /* Preview Assets.xcassets in Resources */,
+				F5061C602B0ABF01006E39F0 /* Aşk ile davar HOH ne.mp3 in Resources */,
+				F5061C1E2B0A79EB006E39F0 /* Salak herif saçmalama.mp3 in Resources */,
+				F5061C7A2B0ABF01006E39F0 /* Nasipde varsa.mp3 in Resources */,
+				F5061C8D2B0ABF01006E39F0 /* Amk yavaş lan.mp3 in Resources */,
+				F5061C5F2B0ABF01006E39F0 /* Ben alırım ya.mp3 in Resources */,
+				F5061C902B0ABF01006E39F0 /* Piç.mp3 in Resources */,
+				F5061C782B0ABF01006E39F0 /* Kalk kalk kalk.mp3 in Resources */,
+				F5061C682B0ABF01006E39F0 /* Patlıcan yaptım yecen mi.mp3 in Resources */,
+				F56291E92ACB6C6800818959 /* Assets.xcassets in Resources */,
+				F5061C202B0A79EB006E39F0 /* Bana karıııı mı yok sen kimsin aq.mp3 in Resources */,
+				F5061C122B0A79EB006E39F0 /* abi biz bittik.mp3 in Resources */,
+				F5061C1C2B0A79EB006E39F0 /* damat takacam falcatayi.mp3 in Resources */,
+				F5061C8C2B0ABF01006E39F0 /* Sohbetleri kaçırmada.mp3 in Resources */,
+				F5061C1A2B0A79EB006E39F0 /* Tuvalet gene tıkalı nasıl sıçıyosunuz birader.mp3 in Resources */,
+				F5061C1B2B0A79EB006E39F0 /* Sen benle dalga mı geçiyosun lan şarj aleti.mp3 in Resources */,
+				F5061C802B0ABF01006E39F0 /* Sigara mı içiyon lan sen.mp3 in Resources */,
+				F5061C992B0ACF02006E39F0 /* Bak nasıl kıvırıyor yandaş mısın aq.mp3 in Resources */,
+				F5061C6F2B0ABF01006E39F0 /* Sana çıkmıyo.mp3 in Resources */,
+				F5061C932B0AC77E006E39F0 /* Allah'da binbir belanızı versin.mp3 in Resources */,
+				F5061C6C2B0ABF01006E39F0 /* Bu gece kalsın başka hiç kalmasın.mp3 in Resources */,
+				F5061C842B0ABF01006E39F0 /* Ne demek kızın yaşı anneden büyük olamaz.mp3 in Resources */,
+				F5061C172B0A79EB006E39F0 /* Vicdansız sürtük.mp3 in Resources */,
+				F5061C632B0ABF01006E39F0 /* Kodumun kaşarı yetmedi demi.mp3 in Resources */,
+				F5061C652B0ABF01006E39F0 /* Bana kraker soruyor.mp3 in Resources */,
+				F5061C792B0ABF01006E39F0 /* Amanın.mp3 in Resources */,
+				F5061C722B0ABF01006E39F0 /* Senden benden zengin bunlar he.mp3 in Resources */,
+				F5061C5A2B0ABF01006E39F0 /* Anasını siktiniz memleketin.mp3 in Resources */,
+				F5061C5D2B0ABF01006E39F0 /* Tadımız da kaçtı.mp3 in Resources */,
+				F5061C892B0ABF01006E39F0 /* I have got a one pencil.mp3 in Resources */,
+				F5061C882B0ABF01006E39F0 /* Ne bok anladım ben bu işten.mp3 in Resources */,
+				F5061C162B0A79EB006E39F0 /* abee biz bittik ya bu nee.mp3 in Resources */,
+				F5061C142B0A79EB006E39F0 /* Bizim kimseye ihtiyacımız yok oglm kendimizi sikeriz.mp3 in Resources */,
+				F5061C8A2B0ABF01006E39F0 /* Uğur ıslak kek yicen mi.mp3 in Resources */,
+				F5061C612B0ABF01006E39F0 /* Mükemmel mükemmel.mp3 in Resources */,
+				F5061C762B0ABF01006E39F0 /* Sen öyle san baba.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56291DD2ACB6C6600818959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5061C972B0ACE16006E39F0 /* SoundView.swift in Sources */,
+				F56291E72ACB6C6600818959 /* ContentView.swift in Sources */,
+				F5061BEA2B0A6B80006E39F0 /* SoundRow.swift in Sources */,
+				F5061C9E2B0ADC92006E39F0 /* ShareButton.swift in Sources */,
+				F5061BE32B0A6638006E39F0 /* MemeSound.swift in Sources */,
+				F5061C9C2B0ACFF9006E39F0 /* StopButton.swift in Sources */,
+				F5061BF32B0A6DDC006E39F0 /* SoundListViewModel.swift in Sources */,
+				F5061BF02B0A6D9D006E39F0 /* FavoritesView.swift in Sources */,
+				F5061BFA2B0A6E25006E39F0 /* SoundService.swift in Sources */,
+				F56291E52ACB6C6600818959 /* MemeSoundsApp.swift in Sources */,
+				F5061BE72B0A686B006E39F0 /* Sounds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F56291ED2ACB6C6800818959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F56291EE2ACB6C6800818959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56291F02ACB6C6800818959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemeSounds/Preview Content\"";
+				DEVELOPMENT_TEAM = A34GH6Z753;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilcaglar.MemeSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56291F12ACB6C6800818959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemeSounds/Preview Content\"";
+				DEVELOPMENT_TEAM = A34GH6Z753;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilcaglar.MemeSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56291DC2ACB6C6600818959 /* Build configuration list for PBXProject "MemeSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56291ED2ACB6C6800818959 /* Debug */,
+				F56291EE2ACB6C6800818959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56291EF2ACB6C6800818959 /* Build configuration list for PBXNativeTarget "MemeSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56291F02ACB6C6800818959 /* Debug */,
+				F56291F12ACB6C6800818959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5061BFD2B0A7249006E39F0 /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5061BFE2B0A7249006E39F0 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5061BFD2B0A7249006E39F0 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F56291D92ACB6C6600818959 /* Project object */;
+}
